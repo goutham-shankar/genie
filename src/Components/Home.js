@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from "./Footer";
 import ima from "../abc.jpg"
+import Services from './Services';
 import Why from "./Why";
 function Home() {
     return (
@@ -12,8 +12,8 @@ function Home() {
                         Get the Job done
                     </h2>
                     <h1 className="mt-5 font-serif">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since
+                        Welcome to Pro Service Genie, your one-stop solution for all your home cleaning, maintenance, and repair needs.
+                        Our company is dedicated to providing high-quality services to homeowners, renters, and property managers across the region.
 
                     </h1>
                     <ul class="flex  font-bold p-4 mt-4 rounded-lg bg-transparent flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium ">
@@ -43,7 +43,8 @@ function Home() {
                 <img class="object-contain  h-48 w-96" src={ima} />
             </div>
             <Why />
-            <Footer />
+            <Services />
+
         </div>
     )
 }

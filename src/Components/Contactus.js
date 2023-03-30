@@ -2,7 +2,7 @@ import React from 'react'
 function Contactus() {
     return (
         <div>
-            <div class="container my-24 px-6 mx-auto">
+            <div class="container my-48 sm:my-24 px-6  ">
 
                 <section class="mb-32 text-gray-800">
                     <div class="flex justify-center">

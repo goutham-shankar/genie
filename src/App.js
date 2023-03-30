@@ -6,6 +6,9 @@ import { Routes, Route } from 'react-router-dom';
 import Contactus from "./Components/Contactus";
 import Home from "./Components/Home";
 import Header from "./Components/Header";
+import Aboutus from "./Components/Aboutus";
+import Footer from "./Components/Footer";
+import Services from "./Components/Services";
 
 function App() {
   return (<>
@@ -16,7 +19,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="Contactus" element={<Contactus />} />
+        <Route path="About" element={<Aboutus />} />
+        <Route path="Services" element={<Services />} />
       </Routes>
+      <Footer/>
     </Router></>
   );
 }
